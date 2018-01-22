@@ -1,4 +1,5 @@
 import random
+from PIL import Image
 class FantasyBook:
   def __init__(self,):
       self.Firstword = random.choice(Firstword)
@@ -165,8 +166,8 @@ Lastname = [
 
 def main():
      printHeader()
-     import Image
-     image = Image.open("image." Lastword ".jpg")
+
+     image = Image.open("images/" Fantasybook.Lastword ".jpg")
      image.show(),
 
      FantasyBooks = [
